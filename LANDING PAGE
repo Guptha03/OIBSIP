@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = devicewidth,intial scale = 1.0">
+        <link rel ="stylesheet" href ="style.css">
+    </head>
+    <body>
+        <div class ="img">
+        <div class ="cont">
+            <div class ="cont1">
+                <h1>SRK Threads</h1>
+            </div>
+            <div class ="cont3">
+                <h2 class ="cont4">Women</h2>
+                <h2 class ="cont4">Men</h2>
+                <h2 class ="cont4">Home</h2>
+                <h2 class ="cont4">Login</h2>
+            </div>   
+        </div>
+        <div class ="cont5">
+            <div >
+            <h1>NEW ARRIVALS</h1>
+            </div>
+            <div >
+                <button class ="but1">SignUp</button>
+            </div>
+        </div>
+        </div>
+        <div class ="main">
+            <div class ="main1">
+                <h2>Men's Wear</h2>
+                <img  src ="https://www.shaahidamir.co.in/images/mens-banner.jpg"  width="350px" height="250px" class ="img2">
+            </div>
+            <div class ="main2">
+                <h2>Women's Wear</h2>
+                <img src ="https://www.cougar.com.pk/cdn/shop/articles/New_Women_s_Collection.jpg?v=1662637654" width="350px" height="250px">
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+            <p>Contact us at: srkthreads@gmail.com</p>
+        </footer>
+    </body>
+</html>
+.cont{
 
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.cont3{
+    
+    display: flex;
+    flex-direction: row;
+}
+.cont4{
+    font-size: large;
+    margin-right: 60px;
+}
+.cont5{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: xx-large;
+    align-items:center;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.but1{
+    width: 100px;
+    height: 40px;
+    color: aqua;
+    background-color: pink;
+    margin-top: 40px;
+    margin-left:150px;
+}
+.but1:hover{
+    background-color: palevioletred;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffdab9; 
+
+}
+.img{
+    background-image: url(https://www.glam.com/img/gallery/colors-you-need-to-ditch-from-your-wardrobe-asap/intro-1675298765.jpg);
+    background-size: 100% auto;
+}
+.main1{
+    margin-left: 250px;
+}
+.main2{
+    margin-left: 400px;
+}
