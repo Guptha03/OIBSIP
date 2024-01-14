@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.name{
+}
+.name1{
+    color: antiquewhite;
+    margin-left: 550px;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tem{
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.tem1{
+    color: bisque;
+    margin-left: 500px;    
+}
+.tem2{
+    color: bisque;
+    margin-right: 500px;
+    justify-content: space-between;
+}
+.tem3{
+    color: bisque;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+.but{
+    margin-top: 50px;
+    margin-left: 650px;
+    padding: 15px 30px; 
+    font-size: 16px; /* Adjust font size if needed */
+    color:lightblue;
+    border:10px;
+}
+button:hover{
+    color: black;
+    background-color: aqua;
+}
